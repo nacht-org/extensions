@@ -1,0 +1,12 @@
+{
+  "name": "remote",
+  "store_type": "git",
+  "version": "1.0.0",
+  "url": "https://github.com/nacht-org/extensions",
+  "description": "Git repository at https://github.com/nacht-org/extensions",
+  "last_updated": "2025-10-02T05:27:12.042199Z",
+  "url_patterns": [],
+  "supported_domains": [],
+  "extension_count": 0,
+  "extensions": []
+}
