@@ -1,0 +1,24 @@
+{
+  "id": "en.scribblehub",
+  "name": "ScribbleHub",
+  "version": "0.1.0",
+  "author": "en.scribblehub",
+  "langs": [
+    "en"
+  ],
+  "base_urls": [
+    "https://www.scribblehub.com",
+    "https://scribblehub.com"
+  ],
+  "rds": [
+    "Ltr"
+  ],
+  "attrs": [],
+  "signature": null,
+  "wasm_file": {
+    "path": "./extension.wasm",
+    "checksum": "blake3:1de10973042fdba49f53a1fba803d905c1a52bb86df20808ca863ff8d3ad1d06",
+    "size": 914681
+  },
+  "assets": []
+}

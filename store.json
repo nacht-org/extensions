@@ -4,9 +4,43 @@
   "version": "1.0.0",
   "url": "https://github.com/nacht-org/extensions",
   "description": "Git repository at https://github.com/nacht-org/extensions",
-  "last_updated": "2025-10-02T05:27:12.042199Z",
-  "url_patterns": [],
-  "supported_domains": [],
-  "extension_count": 0,
-  "extensions": []
+  "last_updated": "2025-10-02T05:28:57.381261Z",
+  "url_patterns": [
+    {
+      "url_prefix": "https://www.scribblehub.com",
+      "extensions": [
+        "en.scribblehub"
+      ],
+      "priority": 100
+    },
+    {
+      "url_prefix": "https://scribblehub.com",
+      "extensions": [
+        "en.scribblehub"
+      ],
+      "priority": 100
+    }
+  ],
+  "supported_domains": [
+    "scribblehub.com",
+    "www.scribblehub.com"
+  ],
+  "extension_count": 1,
+  "extensions": [
+    {
+      "id": "en.scribblehub",
+      "name": "ScribbleHub",
+      "version": "0.1.0",
+      "base_urls": [
+        "https://www.scribblehub.com",
+        "https://scribblehub.com"
+      ],
+      "langs": [
+        "en"
+      ],
+      "last_updated": "2025-10-02T05:28:57Z",
+      "manifest_path": "extensions/en.scribblehub/0.1.0/manifest.json",
+      "manifest_checksum": "blake3:ad201ed06d3425ee2344f94590cc046091deca9a1f1fdd22d7de38668d897d33"
+    }
+  ]
 }
