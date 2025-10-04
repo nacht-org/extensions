@@ -4,8 +4,15 @@
   "version": "1.0.0",
   "url": "https://github.com/nacht-org/extensions",
   "description": "Git repository at https://github.com/nacht-org/extensions",
-  "last_updated": "2025-10-02T05:28:57.381261Z",
+  "last_updated": "2025-10-04T18:04:10.446825Z",
   "url_patterns": [
+    {
+      "url_prefix": "https://www.royalroad.com",
+      "extensions": [
+        "en.royalroad"
+      ],
+      "priority": 100
+    },
     {
       "url_prefix": "https://www.scribblehub.com",
       "extensions": [
@@ -23,10 +30,25 @@
   ],
   "supported_domains": [
     "scribblehub.com",
+    "www.royalroad.com",
     "www.scribblehub.com"
   ],
-  "extension_count": 1,
+  "extension_count": 2,
   "extensions": [
+    {
+      "id": "en.royalroad",
+      "name": "Royal Road",
+      "version": "0.1.0",
+      "base_urls": [
+        "https://www.royalroad.com"
+      ],
+      "langs": [
+        "en"
+      ],
+      "last_updated": "2025-10-04T18:04:10Z",
+      "manifest_path": "extensions/en.royalroad/0.1.0/manifest.json",
+      "manifest_checksum": "blake3:8b8de89d74901fcac756a16cf228c16c38a7bf6fd77a356e40797cb389395f8f"
+    },
     {
       "id": "en.scribblehub",
       "name": "ScribbleHub",
@@ -38,7 +60,7 @@
       "langs": [
         "en"
       ],
-      "last_updated": "2025-10-02T05:28:57Z",
+      "last_updated": "2025-10-04T10:41:01Z",
       "manifest_path": "extensions/en.scribblehub/0.1.0/manifest.json",
       "manifest_checksum": "blake3:ad201ed06d3425ee2344f94590cc046091deca9a1f1fdd22d7de38668d897d33"
     }
