@@ -1,0 +1,24 @@
+{
+  "id": "en.royalroad",
+  "name": "Royal Road",
+  "version": "0.1.0",
+  "author": "en.royalroad",
+  "langs": [
+    "en"
+  ],
+  "base_urls": [
+    "https://www.royalroad.com"
+  ],
+  "rds": [
+    "Ltr"
+  ],
+  "attrs": [],
+  "signature": null,
+  "wasm_file": {
+    "path": "./extension.wasm",
+    "checksum": "blake3:f6c78c98ff686ff3312e0f96b893438a4e106a6d8212043fe4211eb9d927f427",
+    "size": 1802098
+  },
+  "assets": [],
+  "path": "extensions/en.royalroad/0.1.0"
+}

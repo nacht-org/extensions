@@ -6,6 +6,25 @@
   "description": null,
   "last_updated": "2025-10-25T17:54:58.284364Z",
   "extensions": {
+    "en.royalroad": {
+      "latest": "0.1.0",
+      "all_versions": {
+        "0.1.0": {
+          "id": "en.royalroad",
+          "name": "Royal Road",
+          "version": "0.1.0",
+          "base_urls": [
+            "https://www.royalroad.com"
+          ],
+          "langs": [
+            "en"
+          ],
+          "last_updated": "2025-10-25T18:01:59.706710Z",
+          "manifest_path": "extensions/en.royalroad/0.1.0/manifest.json",
+          "manifest_checksum": "blake3:1e84dd092208dff22f17d0dfbcca507f016f3a07f844a1fb9f3ea712f5467ed3"
+        }
+      }
+    },
     "en.scribblehub": {
       "latest": "0.1.0",
       "all_versions": {
@@ -20,7 +39,7 @@
           "langs": [
             "en"
           ],
-          "last_updated": "2025-10-25T18:00:14.318475Z",
+          "last_updated": "2025-10-25T18:01:59.706527Z",
           "manifest_path": "extensions/en.scribblehub/0.1.0/manifest.json",
           "manifest_checksum": "blake3:4ec80837ffaa6e7f1f3c4fbb52e3fe18beded88c424be04a2679d24fb4fd2102"
         }
@@ -29,6 +48,12 @@
   },
   "index": {
     "url_patterns": [
+      {
+        "url_prefix": "https://www.royalroad.com",
+        "extensions": [
+          "en.royalroad"
+        ]
+      },
       {
         "url_prefix": "https://www.scribblehub.com",
         "extensions": [
