@@ -5,8 +5,42 @@
   "url": "https://github.com/nacht-org/extensions.git",
   "description": null,
   "last_updated": "2025-10-25T17:54:58.284364Z",
-  "extensions": {},
+  "extensions": {
+    "en.scribblehub": {
+      "latest": "0.1.0",
+      "all_versions": {
+        "0.1.0": {
+          "id": "en.scribblehub",
+          "name": "ScribbleHub",
+          "version": "0.1.0",
+          "base_urls": [
+            "https://www.scribblehub.com",
+            "https://scribblehub.com"
+          ],
+          "langs": [
+            "en"
+          ],
+          "last_updated": "2025-10-25T18:00:14.318475Z",
+          "manifest_path": "extensions/en.scribblehub/0.1.0/manifest.json",
+          "manifest_checksum": "blake3:4ec80837ffaa6e7f1f3c4fbb52e3fe18beded88c424be04a2679d24fb4fd2102"
+        }
+      }
+    }
+  },
   "index": {
-    "url_patterns": []
+    "url_patterns": [
+      {
+        "url_prefix": "https://www.scribblehub.com",
+        "extensions": [
+          "en.scribblehub"
+        ]
+      },
+      {
+        "url_prefix": "https://scribblehub.com",
+        "extensions": [
+          "en.scribblehub"
+        ]
+      }
+    ]
   }
 }
