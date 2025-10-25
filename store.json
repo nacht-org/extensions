@@ -21,7 +21,7 @@
           "langs": [
             "en"
           ],
-          "last_updated": "2025-10-25T18:02:12.745684Z",
+          "last_updated": "2025-10-25T18:02:34.810219Z",
           "manifest_path": "extensions/en.novelfull/0.1.0/manifest.json",
           "manifest_checksum": "blake3:7c8d5e6bbe6fb39efb9f6c9a5218b036e0160c64af7e9bab040bae48fd3231bb"
         }
@@ -40,7 +40,7 @@
           "langs": [
             "en"
           ],
-          "last_updated": "2025-10-25T18:02:12.746104Z",
+          "last_updated": "2025-10-25T18:02:34.810684Z",
           "manifest_path": "extensions/en.royalroad/0.1.0/manifest.json",
           "manifest_checksum": "blake3:1e84dd092208dff22f17d0dfbcca507f016f3a07f844a1fb9f3ea712f5467ed3"
         }
@@ -60,9 +60,28 @@
           "langs": [
             "en"
           ],
-          "last_updated": "2025-10-25T18:02:12.745085Z",
+          "last_updated": "2025-10-25T18:02:34.809970Z",
           "manifest_path": "extensions/en.scribblehub/0.1.0/manifest.json",
           "manifest_checksum": "blake3:4ec80837ffaa6e7f1f3c4fbb52e3fe18beded88c424be04a2679d24fb4fd2102"
+        }
+      }
+    },
+    "en.wuxiaworld": {
+      "latest": "0.1.0",
+      "all_versions": {
+        "0.1.0": {
+          "id": "en.wuxiaworld",
+          "name": "Wuxiaworld",
+          "version": "0.1.0",
+          "base_urls": [
+            "https://www.wuxiaworld.com"
+          ],
+          "langs": [
+            "en"
+          ],
+          "last_updated": "2025-10-25T18:02:34.810383Z",
+          "manifest_path": "extensions/en.wuxiaworld/0.1.0/manifest.json",
+          "manifest_checksum": "blake3:85eab4e5b0e29b341ccddda60f49a3abb0fb88b9002541d73351a7493da4ab13"
         }
       }
     }
@@ -103,6 +122,12 @@
         "url_prefix": "https://scribblehub.com",
         "extensions": [
           "en.scribblehub"
+        ]
+      },
+      {
+        "url_prefix": "https://www.wuxiaworld.com",
+        "extensions": [
+          "en.wuxiaworld"
         ]
       }
     ]

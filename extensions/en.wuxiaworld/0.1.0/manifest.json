@@ -1,0 +1,24 @@
+{
+  "id": "en.wuxiaworld",
+  "name": "Wuxiaworld",
+  "version": "0.1.0",
+  "author": "en.wuxiaworld",
+  "langs": [
+    "en"
+  ],
+  "base_urls": [
+    "https://www.wuxiaworld.com"
+  ],
+  "rds": [
+    "Ltr"
+  ],
+  "attrs": [],
+  "signature": null,
+  "wasm_file": {
+    "path": "./extension.wasm",
+    "checksum": "blake3:858665bace0c2de90e48a838a0df708210ab370ce6822e047fc461497904617c",
+    "size": 282259
+  },
+  "assets": [],
+  "path": "extensions/en.wuxiaworld/0.1.0"
+}
