@@ -1,0 +1,26 @@
+{
+  "id": "en.novelfull",
+  "name": "NovelFull",
+  "version": "0.1.0",
+  "author": "en.novelfull",
+  "langs": [
+    "en"
+  ],
+  "base_urls": [
+    "http://novelfull.com",
+    "https://novelfull.com",
+    "https://novelfull.net"
+  ],
+  "rds": [
+    "Ltr"
+  ],
+  "attrs": [],
+  "signature": null,
+  "wasm_file": {
+    "path": "./extension.wasm",
+    "checksum": "blake3:6e2b4e3bf6d49cade0597a5f3eeeec6d75ae4a7448a8541557a5d7c5a5aa258a",
+    "size": 806662
+  },
+  "assets": [],
+  "path": "extensions/en.novelfull/0.1.0"
+}

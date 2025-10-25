@@ -6,6 +6,27 @@
   "description": null,
   "last_updated": "2025-10-25T17:54:58.284364Z",
   "extensions": {
+    "en.novelfull": {
+      "latest": "0.1.0",
+      "all_versions": {
+        "0.1.0": {
+          "id": "en.novelfull",
+          "name": "NovelFull",
+          "version": "0.1.0",
+          "base_urls": [
+            "http://novelfull.com",
+            "https://novelfull.com",
+            "https://novelfull.net"
+          ],
+          "langs": [
+            "en"
+          ],
+          "last_updated": "2025-10-25T18:02:12.745684Z",
+          "manifest_path": "extensions/en.novelfull/0.1.0/manifest.json",
+          "manifest_checksum": "blake3:7c8d5e6bbe6fb39efb9f6c9a5218b036e0160c64af7e9bab040bae48fd3231bb"
+        }
+      }
+    },
     "en.royalroad": {
       "latest": "0.1.0",
       "all_versions": {
@@ -19,7 +40,7 @@
           "langs": [
             "en"
           ],
-          "last_updated": "2025-10-25T18:01:59.706710Z",
+          "last_updated": "2025-10-25T18:02:12.746104Z",
           "manifest_path": "extensions/en.royalroad/0.1.0/manifest.json",
           "manifest_checksum": "blake3:1e84dd092208dff22f17d0dfbcca507f016f3a07f844a1fb9f3ea712f5467ed3"
         }
@@ -39,7 +60,7 @@
           "langs": [
             "en"
           ],
-          "last_updated": "2025-10-25T18:01:59.706527Z",
+          "last_updated": "2025-10-25T18:02:12.745085Z",
           "manifest_path": "extensions/en.scribblehub/0.1.0/manifest.json",
           "manifest_checksum": "blake3:4ec80837ffaa6e7f1f3c4fbb52e3fe18beded88c424be04a2679d24fb4fd2102"
         }
@@ -48,6 +69,24 @@
   },
   "index": {
     "url_patterns": [
+      {
+        "url_prefix": "http://novelfull.com",
+        "extensions": [
+          "en.novelfull"
+        ]
+      },
+      {
+        "url_prefix": "https://novelfull.com",
+        "extensions": [
+          "en.novelfull"
+        ]
+      },
+      {
+        "url_prefix": "https://novelfull.net",
+        "extensions": [
+          "en.novelfull"
+        ]
+      },
       {
         "url_prefix": "https://www.royalroad.com",
         "extensions": [
