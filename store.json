@@ -6,6 +6,25 @@
   "description": null,
   "last_updated": "2025-10-25T17:54:58.284364Z",
   "extensions": {
+    "en.novelfire": {
+      "latest": "0.1.0",
+      "all_versions": {
+        "0.1.0": {
+          "id": "en.novelfire",
+          "name": "Novel Fire",
+          "version": "0.1.0",
+          "base_urls": [
+            "https://novelfire.net"
+          ],
+          "langs": [
+            "en"
+          ],
+          "last_updated": "2026-03-24T17:24:43.960529Z",
+          "manifest_path": "extensions/en.novelfire/0.1.0/manifest.json",
+          "manifest_checksum": "blake3:d1f04691b51145cb8b4d290e8403c1add637525cfc37b3b5ea182d8c6c067d06"
+        }
+      }
+    },
     "en.novelfull": {
       "latest": "0.1.0",
       "all_versions": {
@@ -21,7 +40,7 @@
           "langs": [
             "en"
           ],
-          "last_updated": "2026-03-19T18:17:11.891162Z",
+          "last_updated": "2026-03-24T17:24:43.959602Z",
           "manifest_path": "extensions/en.novelfull/0.1.0/manifest.json",
           "manifest_checksum": "blake3:7c8d5e6bbe6fb39efb9f6c9a5218b036e0160c64af7e9bab040bae48fd3231bb"
         }
@@ -40,7 +59,7 @@
           "langs": [
             "en"
           ],
-          "last_updated": "2026-03-19T18:17:11.891482Z",
+          "last_updated": "2026-03-24T17:24:43.960239Z",
           "manifest_path": "extensions/en.royalroad/0.1.0/manifest.json",
           "manifest_checksum": "blake3:9d0ed06079f5fad9a7f4e7af891b79f7f75688529ca23deb0def0d7ebaba444d"
         }
@@ -60,7 +79,7 @@
           "langs": [
             "en"
           ],
-          "last_updated": "2026-03-19T18:17:11.890489Z",
+          "last_updated": "2026-03-24T17:24:43.958674Z",
           "manifest_path": "extensions/en.scribblehub/0.1.0/manifest.json",
           "manifest_checksum": "blake3:4ec80837ffaa6e7f1f3c4fbb52e3fe18beded88c424be04a2679d24fb4fd2102"
         }
@@ -79,7 +98,7 @@
           "langs": [
             "en"
           ],
-          "last_updated": "2026-03-19T18:17:11.891322Z",
+          "last_updated": "2026-03-24T17:24:43.959940Z",
           "manifest_path": "extensions/en.wuxiaworld/0.1.0/manifest.json",
           "manifest_checksum": "blake3:85eab4e5b0e29b341ccddda60f49a3abb0fb88b9002541d73351a7493da4ab13"
         }
@@ -88,6 +107,12 @@
   },
   "index": {
     "url_patterns": [
+      {
+        "url_prefix": "https://novelfire.net",
+        "extensions": [
+          "en.novelfire"
+        ]
+      },
       {
         "url_prefix": "http://novelfull.com",
         "extensions": [

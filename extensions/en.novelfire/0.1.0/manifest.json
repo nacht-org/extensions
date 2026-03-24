@@ -1,0 +1,24 @@
+{
+  "id": "en.novelfire",
+  "name": "Novel Fire",
+  "version": "0.1.0",
+  "author": "en.novelfire",
+  "langs": [
+    "en"
+  ],
+  "base_urls": [
+    "https://novelfire.net"
+  ],
+  "rds": [
+    "Ltr"
+  ],
+  "attrs": [],
+  "signature": null,
+  "wasm_file": {
+    "path": "./extension.wasm",
+    "checksum": "blake3:ae05997d3dbd1cbe05473eba97bee3de2f56eeb054910ef7a4b1672e05a545d7",
+    "size": 221687
+  },
+  "assets": [],
+  "path": "extensions/en.novelfire/0.1.0"
+}
