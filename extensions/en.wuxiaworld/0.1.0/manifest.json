@@ -16,8 +16,8 @@
   "signature": null,
   "wasm_file": {
     "path": "./extension.wasm",
-    "checksum": "blake3:858665bace0c2de90e48a838a0df708210ab370ce6822e047fc461497904617c",
-    "size": 282259
+    "checksum": "blake3:04efc29b35aec5908f662c3bcefa87f1d766dd39eb8211f2d39d304c00cae320",
+    "size": 274982
   },
   "assets": [],
   "path": "extensions/en.wuxiaworld/0.1.0"
