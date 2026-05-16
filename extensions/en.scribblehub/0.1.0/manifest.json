@@ -17,8 +17,8 @@
   "signature": null,
   "wasm_file": {
     "path": "./extension.wasm",
-    "checksum": "blake3:00271d21b6b5a57b97e9b141e1948238d76c2358829104e7074f1f9d78f35788",
-    "size": 979698
+    "checksum": "blake3:c59f9de121e1da7f7f285af9e74a96b0a697caf8f60ca69e4c5cb0719c91ebd6",
+    "size": 387693
   },
   "assets": [],
   "path": "extensions/en.scribblehub/0.1.0"
