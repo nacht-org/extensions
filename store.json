@@ -19,7 +19,7 @@
           "langs": [
             "en"
           ],
-          "last_updated": "2026-05-16T12:42:43.408983+00:00",
+          "last_updated": "2026-05-16T12:43:25.418675+00:00",
           "manifest_path": "extensions/en.novelfire/0.1.0/manifest.json",
           "manifest_checksum": "blake3:d1f04691b51145cb8b4d290e8403c1add637525cfc37b3b5ea182d8c6c067d06"
         }
@@ -40,9 +40,9 @@
           "langs": [
             "en"
           ],
-          "last_updated": "2026-05-16T12:42:43.408192+00:00",
+          "last_updated": "2026-05-16T12:43:25.417585+00:00",
           "manifest_path": "extensions/en.novelfull/0.1.0/manifest.json",
-          "manifest_checksum": "blake3:7c8d5e6bbe6fb39efb9f6c9a5218b036e0160c64af7e9bab040bae48fd3231bb"
+          "manifest_checksum": "blake3:fd0251381923b336fabe2c1f43f4f54654eca01b7b77b54fe29e7d9b2db8539d"
         }
       }
     },
@@ -59,7 +59,7 @@
           "langs": [
             "en"
           ],
-          "last_updated": "2026-05-16T12:42:43.408672+00:00",
+          "last_updated": "2026-05-16T12:43:25.418308+00:00",
           "manifest_path": "extensions/en.royalroad/0.1.0/manifest.json",
           "manifest_checksum": "blake3:9d0ed06079f5fad9a7f4e7af891b79f7f75688529ca23deb0def0d7ebaba444d"
         }
@@ -79,7 +79,7 @@
           "langs": [
             "en"
           ],
-          "last_updated": "2026-05-16T12:42:43.407841+00:00",
+          "last_updated": "2026-05-16T12:43:25.417216+00:00",
           "manifest_path": "extensions/en.scribblehub/0.1.0/manifest.json",
           "manifest_checksum": "blake3:884ac42fec918a1ad1b3961e77eec4d012310e2621a528f2d0ec7acc9ad36162"
         }
@@ -98,7 +98,7 @@
           "langs": [
             "en"
           ],
-          "last_updated": "2026-05-16T12:42:43.408434+00:00",
+          "last_updated": "2026-05-16T12:43:25.417991+00:00",
           "manifest_path": "extensions/en.wuxiaworld/0.1.0/manifest.json",
           "manifest_checksum": "blake3:e591d08180604468669bdc1f1b399b718b16fae371115c1e7b794ba94917636f"
         }
