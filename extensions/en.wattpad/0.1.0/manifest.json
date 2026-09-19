@@ -1,0 +1,25 @@
+{
+  "id": "en.wattpad",
+  "name": "Wattpad",
+  "version": "0.1.0",
+  "author": "en.wattpad",
+  "langs": [
+    "en"
+  ],
+  "base_urls": [
+    "https://www.wattpad.com",
+    "https://wattpad.com"
+  ],
+  "rds": [
+    "Ltr"
+  ],
+  "attrs": [],
+  "signature": null,
+  "wasm_file": {
+    "path": "./extension.wasm",
+    "checksum": "blake3:3384f6f76a7b88e0a8668adadb9ab6743ca634bd34f6758063370236df1eca24",
+    "size": 309257
+  },
+  "assets": [],
+  "path": "extensions/en.wattpad/0.1.0"
+}

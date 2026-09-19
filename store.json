@@ -19,7 +19,7 @@
           "langs": [
             "en"
           ],
-          "last_updated": "2026-05-16T12:43:25.418675+00:00",
+          "last_updated": "2026-09-19T16:21:24.266789+00:00",
           "manifest_path": "extensions/en.novelfire/0.1.0/manifest.json",
           "manifest_checksum": "blake3:d1f04691b51145cb8b4d290e8403c1add637525cfc37b3b5ea182d8c6c067d06"
         }
@@ -40,7 +40,7 @@
           "langs": [
             "en"
           ],
-          "last_updated": "2026-05-16T12:43:25.417585+00:00",
+          "last_updated": "2026-09-19T16:21:24.266429+00:00",
           "manifest_path": "extensions/en.novelfull/0.1.0/manifest.json",
           "manifest_checksum": "blake3:fd0251381923b336fabe2c1f43f4f54654eca01b7b77b54fe29e7d9b2db8539d"
         }
@@ -59,7 +59,7 @@
           "langs": [
             "en"
           ],
-          "last_updated": "2026-05-16T12:43:25.418308+00:00",
+          "last_updated": "2026-09-19T16:21:24.266671+00:00",
           "manifest_path": "extensions/en.royalroad/0.1.0/manifest.json",
           "manifest_checksum": "blake3:9d0ed06079f5fad9a7f4e7af891b79f7f75688529ca23deb0def0d7ebaba444d"
         }
@@ -79,9 +79,29 @@
           "langs": [
             "en"
           ],
-          "last_updated": "2026-05-16T12:43:25.417216+00:00",
+          "last_updated": "2026-09-19T16:21:24.266264+00:00",
           "manifest_path": "extensions/en.scribblehub/0.1.0/manifest.json",
           "manifest_checksum": "blake3:884ac42fec918a1ad1b3961e77eec4d012310e2621a528f2d0ec7acc9ad36162"
+        }
+      }
+    },
+    "en.wattpad": {
+      "latest": "0.1.0",
+      "all_versions": {
+        "0.1.0": {
+          "id": "en.wattpad",
+          "name": "Wattpad",
+          "version": "0.1.0",
+          "base_urls": [
+            "https://www.wattpad.com",
+            "https://wattpad.com"
+          ],
+          "langs": [
+            "en"
+          ],
+          "last_updated": "2026-09-19T16:21:24.266903+00:00",
+          "manifest_path": "extensions/en.wattpad/0.1.0/manifest.json",
+          "manifest_checksum": "blake3:998b74de641324ab1dc877ee8c5c51bdbcf2e5b9a014024c3863453df70e0cc0"
         }
       }
     },
@@ -98,7 +118,7 @@
           "langs": [
             "en"
           ],
-          "last_updated": "2026-05-16T12:43:25.417991+00:00",
+          "last_updated": "2026-09-19T16:21:24.266554+00:00",
           "manifest_path": "extensions/en.wuxiaworld/0.1.0/manifest.json",
           "manifest_checksum": "blake3:e591d08180604468669bdc1f1b399b718b16fae371115c1e7b794ba94917636f"
         }
@@ -147,6 +167,18 @@
         "url_prefix": "https://scribblehub.com",
         "extensions": [
           "en.scribblehub"
+        ]
+      },
+      {
+        "url_prefix": "https://www.wattpad.com",
+        "extensions": [
+          "en.wattpad"
+        ]
+      },
+      {
+        "url_prefix": "https://wattpad.com",
+        "extensions": [
+          "en.wattpad"
         ]
       },
       {
